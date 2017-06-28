@@ -1,0 +1,20 @@
+- include normalize css : organize html page , cancel margin & padding , make the page correct 100%.
+- container for each section.
+- direct child >
+- clear fix {clear:both;} : after 2 floats
+- background-size: cover
+- element-last-of-type 
+- border-sizing:border-box; / content-box;
+-box shadow
+
+======================
+
+- width , hight
+- padding , margin
+- font-family , font-size , font-weight
+- color , background-color , background-image
+- text-transform , text-align , text-decoration
+- overflow ,float , display
+- line-height
+- a:hover , a:active , cursor
+- list-style

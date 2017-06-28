@@ -1,0 +1,333 @@
+/* Start Main Rules*/
+.container{
+	width:1172px;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
+.clearfix{clear:both;}
+*{box-sizing: border-box;}
+
+/* End Main Rules */
+/* Start Header */
+
+/* Start Slider */
+.header .slider{
+	height:800px;
+	background-image: url('../images/slider.png') ;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+
+}
+.header .slider .container .intro{
+	height: 800px;
+	padding-top: 350px;
+	text-transform: uppercase;
+}
+.header .slider .container .intro h2{
+	margin: 0 auto;
+	font-size: 47px;
+	padding: 5px 0;
+	width: 600px;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+.header .slider .container .intro button{
+	background: none;
+	color:#fff;
+	padding: 16px 35px;
+	margin: 45px ;
+	text-align: center;
+	margin-left: 500px;
+}
+/* End Slider */
+
+/* Start Navbar */
+.header .navbar{
+	background-color: #252E30;
+	color:#fff;
+	overflow: hidden;
+}
+.header .navbar .container h2{text-transform: uppercase;}
+.header .navbar .container h2 span{color:#2ECC71;}
+.header .navbar .container ul{
+	padding-left: 0;
+	list-style: none;
+	overflow: hidden;
+	float: right;
+}
+.header .navbar ul li{padding: 10px;}
+.header .navbar ul li a{color: #fff;text-decoration: none;}
+.header .navbar ul li a:hover,
+.header .navbar ul li.active a {color: #2DBA69;}
+/* End Navbar */
+
+/* End Header */
+
+/* Start Features */
+.features{
+	overflow:hidden;
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+.features .feat{width:33.33333%;height:150px;}
+.features .feat h2{text-transform: uppercase;color:#566366;}
+.features .feat p{
+	color:#C2C2C2;
+	line-height: 1.7;
+	font-weight: normal;
+	padding: 0 50px 0 0;
+}
+/* End Features */
+
+/* Start About me*/
+.about-me{overflow: hidden;background-color: #F2F2F2;}
+.about-me .container .image{width:40%;}
+.about-me .container .image img {width:100%;}
+.about-me .container .info{width: 50%;margin: 40px;}
+.about-me .container .info .hobbies{overflow: hidden;}
+.about-me .container .info h2,
+.about-me .container .info h3
+{text-transform: uppercase;color: #566366;}
+.about-me .container .info h3{margin-bottom: 5px}
+.about-me .container .info p{color: #666;}
+.about-me .container .info p:last-of-type{margin-top: 30px;color: #666;}
+.about-me .container .info .hobbies .content {
+	margin-top: 15px;
+	width:50%;
+	min-height: 100px;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+.about-me .container .info .hobbies .content .icon{width: 12%;margin-right: 4%}
+.about-me .container .info .hobbies .content .icon img{max-width: 100%;margin: 20px 20px 0 0;}
+.about-me .container .info .hobbies .content .text{width: 82%;}
+.about-me .container .info .hobbies div p{
+	text-transform: lowercase;
+	margin-top: 0;
+	line-height: 1.6;
+}
+/* End About me*/
+
+/* Start Skills*/
+.skills{
+	overflow: hidden;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+.skills .container .my-skills,
+.skills .container .progress{width:50%;}
+
+.skills .container .my-skills h2{text-transform: uppercase;color: #566366;}
+
+.skills .container .my-skills p{color: #666;}
+.skills .container .my-skills p:last-of-type{margin-top: 30px;color: #666;}
+
+.skills .container .progress .technique{margin-left: 50px;}
+.skills .container .progress .technique h3{text-transform: uppercase;color: #566366;}
+.skills .container .progress .technique div{background-color:  #F2F2F2;height: 25px;}
+
+.skills .container .progress .technique div span{
+	background-color: #2ECC71;
+	height: 25px;
+	display: block;
+	color:#fff;
+	line-height: 25px;
+	text-align: right;
+	font-weight: bold;
+}
+/* End Skills*/
+
+/* Start Resume*/
+.resume{
+	overflow: hidden;
+	padding-bottom: 70px;
+	padding-top: 50px;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+.resume h2{text-transform: uppercase;color: #566366;padding-top: 10px;}
+.resume p{
+	color: #666;
+	text-align: center;
+	padding:0 40px;
+	line-height: 1.6;
+}
+ 
+/* End Resmue */
+
+/* Start Education*/
+.education{overflow: hidden;padding-bottom: 30px;padding-top: 30px;}
+.education .container .main{width:50%;margin-right: 5%;}
+
+.education .container .main h2{text-transform: uppercase;color: #566366;}
+
+.education .container .main p{color: #666;}
+.education .container .main p:last-of-type{margin-top: 30px;color: #666;}
+.education .container .exp{width:45%;}
+.education .container .exp h3{
+	text-transform: uppercase;
+	color: #566366;
+	padding-top: 50px;
+}
+.education .container .exp span{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #666;
+}
+.education .container .exp span:last-of-type{
+	background-color: #2ECC71;
+	margin-bottom: 20px;
+	color:#fff;
+	display: inline-block;
+	padding: 4px 10px;
+}
+.education .container .exp hr,
+.education .container .exp .certificate hr{
+	background-color: #999;
+	height: 1px;
+	border: 0;
+}
+.education .container .exp p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666;
+}
+
+/* End Education*/
+
+/* Start Testimonails*/
+.testimonails{
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+.testimonails .container{margin: 30px 70px;}
+.testimonails q{
+	color: #666;
+	line-height: 1.7;
+	font-style: italic;
+}
+.testimonails h3{color:#566366;padding-top: 10px;}
+.testimonails ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 30px;
+}
+.testimonails ul li{
+	width:15px;
+	height: 15px;
+	display: inline-block;
+	border: 1px solid #2ECC71;
+	cursor: pointer;
+}
+.testimonails ul li.active,
+.testimonails ul li:hover{background-color: #2ECC71;}
+/* End Testimonails */
+
+
+/* Start Portfolio*/
+.portfolio{
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+.portfolio .container h2{text-transform: uppercase;color: #566366;}
+
+.portfolio .container p{padding: 30px 70px;color: #666;}
+
+.portfolio .container .my-work > div{width:33.33%;margin-bottom: 10px;}
+.portfolio .container .my-work > div img{
+	width:92%;
+	margin:  10px;
+	border:1px solid #CCC;
+	background-color: #FFF;
+	padding: 3px;
+	box-shadow: 5px 5px 2px #CCC;
+}
+/* End Portfolio*/
+
+/* Start Contact Me*/
+.contact-me{
+	overflow: hidden;
+	background-color: #252E30;
+	color:white;
+}
+.contact-me .container .info  h2{
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 40px;
+	padding-top: 20px;
+}
+.contact-me .container .info p{
+	color:#7A7C7C;
+	line-height: 1.7;
+	margin-left: 40px
+}
+.contact-me .container .info strong{color:#fff;}
+.contact-me .container .info{width: 45%;}
+.contact-me .container .form
+{
+	padding-top: 40px;
+	margin-left: 15px;
+	width: 40%;	
+}
+.contact-me .container .form label{
+	display: block;
+	color:#fff;
+	padding: 5px 0;
+}
+.contact-me .container .form input,
+.contact-me .container .form textarea{
+	background-color: #4B5456;
+	border:1px solid #4B5456;
+	display: block;
+	width: 80%;
+	margin-bottom: 10px;
+}
+.contact-me .container .form button{
+	color:#fff;
+	background-color: #191F21;
+	padding: 10px;
+	border: 1px solid #191F21;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+/* End Contact Me*/
+
+/* Start Footer*/
+.footer{
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: #191F21;
+	text-align: center;
+}
+.footer .container p{color: #4B5456;}
+.footer .container .icon a i{font-size: 2em;color: #4B5456;}
+footer .container .icon a:hover{color: #fff;}
+/* End Footer */
+
+/* Start My Frame work*/
+
+.skills .container .my-skills button,
+.resume button{
+	background: none;
+	color:#2ECC71;
+	padding: 16px 35px;
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid #2ECC71;
+}
+.resume button{margin-top: 20px;margin-bottom: 30px;}
+.fl-left{float:left;}
+/* End My Frame work*/
